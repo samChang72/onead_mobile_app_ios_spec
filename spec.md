@@ -22,13 +22,13 @@
 
 | Function  | Caller  |API name   | 說明 |
 |---|---|---|---|
-|  設定必要參數 |Native   |ONEAD_config(params:jason string)   | jasonObject,{uid:"'1000033'",guid:"uuu-aaa-bbb0-ddd",network_status:"wifi",play_mode:"mobile-app-incover",dedicated_pid:"12615",is_native_view:"true",ad_environment:"production"}  常數值:<br>play_mode = "mobile-app-incover" or "mobile-app-inread"<br>is_native_view=boolean<br>ad_environment= "production" or "test"<br>network_status="WIFI" or "3G"...etc<br>|
-| 影片暫停/續播  | Native  | ONEAD_videoState(params:string)  | |
-|  通知頁面已載入 |Javascript    |  ONEAD_BRIDGE_pageFinished | |
-| 取得 volume 狀態  |Javascript    |  ONEAD_BRIDGE_audioManager | |
-| 影片點擊  |Javascript    |  ONEAD_BRIDGE_videoClick | |
-|  播放結束 |Javascript    |  ONEAD_BRIDGE_videoEnd | |
-|  關閉WebViewAd |Javascript    |  ONEAD_BRIDGE_closeAD | |
-| 取得BannerUrl  |Javascript    |  ONEAD_BRIDGE_clickURL | |
+|  設定必要參數 |Native   |ONEAD_config(params:jason string)|jasonObject,{uid:"'1000033'",guid:"uuu-aaa-bbb0-ddd",network_status:"wifi",play_mode:"mobile-app-incover",dedicated_pid:"12615",is_native_view:"true",ad_environment:"production"}  常數值:<br>play_mode = "mobile-app-incover" or "mobile-app-inread"<br>is_native_view=boolean<br>ad_environment= "production" or "test"<br>network_status="WIFI" or "3G"...etc |
+| 影片暫停/續播  | Native  | ONEAD_videoState(params:string) | 常數值: <br> "play" or "pause" |
+|  通知頁面已載入 |Javascript    |  ONEAD_BRIDGE_pageFinished |Javascript 會帶boolean參數，true有查到廣告，false沒有 |
+| 取得 volume 狀態  |Javascript    |  ONEAD_BRIDGE_audioManager |不帶參數 |
+| 影片點擊  |Javascript    |  ONEAD_BRIDGE_videoClick |不帶參數 |
+|  播放結束 |Javascript    |  ONEAD_BRIDGE_videoEnd |不帶參數 |
+|  關閉WebViewAd |Javascript    |  ONEAD_BRIDGE_closeAD |不帶參數 |
+| 取得BannerUrl  |Javascript    |  ONEAD_BRIDGE_clickURL |Javascript 會帶 string 類型 URL 參數 |
 
 
