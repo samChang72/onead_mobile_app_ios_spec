@@ -26,7 +26,7 @@
 
 | Function  | Caller  |API name   | 說明 |
 |---|---|---|---|
-|  設定必要參數 |Native   |ONEAD_config(params:jason string)|jasonObject,{uid:"'1000033'",<br>guid:"uuu-aaa-bbb0-ddd",<br>network_status:"wifi",<br>play_mode:"mobile-app-incover",<br>dedicated_pid:"12615",<br>is_native_view:"true",<br>ad_environment:"production"}<br>  常數值:<br>play_mode = "mobile-app-incover" or "mobile-app-inread"<br>is_native_view=boolean<br>ad_environment= "production" or "test"<br>network_status="WIFI" or "3G"...etc |
+|  設定必要參數 |Native   |ONEAD_config(params:jason string)|jasonObject,{uid:"'1000033'", guid:"uuu-aaa-bbb0-ddd", network_status:"wifi", play_mode:"mobile-app-incover", dedicated_pid:"12615", is_native_view:"true",<br>ad_environment:"production"}   常數值: play_mode = "mobile-app-incover" or "mobile-app-inread" is_native_view=boolean ad_environment= "production" or "test" network_status="WIFI" or "3G"...etc |
 | 影片暫停/續播  | Native  | ONEAD_videoState(params:string) | 常數值: <br> "play" or "pause" |
 |  通知頁面已載入 |Javascript    |  ONEAD_BRIDGE_pageFinished |Javascript 會帶boolean參數，<br>true有查到廣告，false沒有 |
 | 取得 volume 狀態  |Javascript    |  ONEAD_BRIDGE_audioManager |不帶參數 |
