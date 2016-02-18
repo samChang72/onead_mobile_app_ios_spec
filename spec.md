@@ -2,15 +2,15 @@
 ### 此規範包含三種格式如下
 
 * 影片預覽
- * this [Native Mobile In_Cover](https://goo.gl/STwXYd/ "Title")
- * Native Mobile In_Read:https://goo.gl/h2GomA
- * WebView Mobile In_Read:https://goo.gl/wOqCPX
+ * [Native Mobile In_Cover](https://goo.gl/STwXYd/)
+ * [Native Mobile In_Read](https://goo.gl/hAIuEA)
+ * [WebView Mobile In_Read](https://goo.gl/F3dL0t)
 
  
 * 流程圖
- * Native Mobile In_Cover:https://goo.gl/ij9WPi
- * Native Mobile In_Read:https://goo.gl/cAV6RT
- * WebView Mobile In_Read:https://goo.gl/QWNpw4
+ * [Native Mobile In_Cover](https://goo.gl/ij9WPi)
+ * [Native Mobile In_Read](https://goo.gl/cAV6RT)
+ * [WebView Mobile In_Read](https://goo.gl/QWNpw4)
  
 * 細則
  * 程式版本請上傳至 github，甲方有讀取的權限。 
