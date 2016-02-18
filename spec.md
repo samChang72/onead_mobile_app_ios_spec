@@ -2,9 +2,10 @@
 ### 此規範包含三種格式如下
 
 * 影片預覽
- * Native Mobile In_Cover:https://goo.gl/NnXc83
+ * this [Native Mobile In_Cover](https://goo.gl/STwXYd/ "Title")
  * Native Mobile In_Read:https://goo.gl/h2GomA
  * WebView Mobile In_Read:https://goo.gl/wOqCPX
+
  
 * 流程圖
  * Native Mobile In_Cover:https://goo.gl/ij9WPi
