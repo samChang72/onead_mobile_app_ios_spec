@@ -20,10 +20,10 @@
  * SDK需測試能相容開發端 Objective-C 與 Swift 兩種程式。
  * 當進入附件2之測試階段時，需提供前端環境。
  * 程式變數命名規格需遵守camel case
- * 與Javascript 的接口參照表1
+ * 與Javascript 的接口參照「API 定義」
 
-# 
-## 設定必要參數 (From Native)
+## API 定義
+### 設定必要參數 (From Native)
 
 ### API name: ONEAD_config(params:json string)
 
@@ -39,59 +39,59 @@
 }
 ```
 
-## 影片暫停/續播 (From Native)
+### 影片暫停/續播 (From Native)
 
 ### API name: ONEAD_videoState(params:string)
 
 ```
-
+//play | pause
 ```
 
-## 通知頁面已載入 (From Javascript)
+### 通知頁面已載入 (From Javascript)
 
-### API name: ONEAD_BRIDGE_pageFinished
-
-```
+### API name: ONEAD_BRIDGE_pageFinished,pageFinished(Boolean)
 
 ```
-
-## 取得 volume 狀態 (From Javascript)
-
-### API name: ONEAD_BRIDGE_audioManager
-
+//true | false
 ```
 
+### 取得 volume 狀態 (From Javascript)
+
+### API name: ONEAD_BRIDGE_audioManager,audioManager()
+
+```
+//不帶參數
 ```
 
 
-## 影片點擊 (From Javascript)
+### 影片點擊 (From Javascript)
 
-### API name: ONEAD_BRIDGE_videoClick
-
-```
+### API name: ONEAD_BRIDGE_videoClick,videoClick()
 
 ```
-
-## 播放結束 (From Javascript)
-
-### API name: ONEAD_BRIDGE_videoEnd
-
+//不帶參數
 ```
 
-```
+### 播放結束 (From Javascript)
 
-## 關閉WebViewAd (From Javascript)
-
-### API name: ONEAD_BRIDGE_closeAD
+### API name: ONEAD_BRIDGE_videoEnd,videoEnd()
 
 ```
-
+//不帶參數
 ```
 
-## 取得BannerUrl (From Javascript)
+### 關閉WebViewAd (From Javascript)
 
-### API name: ONEAD_BRIDGE_clickURL
+### API name: ONEAD_BRIDGE_closeAD,closeAD()
 
 ```
+//不帶參數
+```
 
+### 取得BannerUrl (From Javascript)
+
+### API name: ONEAD_BRIDGE_clickURL,clickURL(String url);
+
+```
+//string 類型 URL 參數
 ```
