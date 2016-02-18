@@ -2,7 +2,7 @@
 ### 此規範包含三種格式如下
 
 * 影片預覽
- * [Native Mobile In_Cover](https://goo.gl/STwXYd/)
+ * [Native Mobile In_Cover](https://goo.gl/k7cIZN)
  * [Native Mobile In_Read](https://goo.gl/hAIuEA)
  * [WebView Mobile In_Read](https://goo.gl/F3dL0t)
 
