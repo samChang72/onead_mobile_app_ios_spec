@@ -17,8 +17,11 @@
  * Webview的部份因為可能需要用到開發端的 Webview 物件，希望對開發著最方便及穩定的方式開發，如: SDK 繼承開發端的webview物件。
  * 三種格式都整合至同一個SDK。
  * SDK需測試能相容開發端 Objective-C 與 Swift 兩種程式。
- 
-* Javascrpit 與 Webview 的 互動接口
+ * 當進入附件2之測試階段時，需提供前端環境。
+ * 程式變數命名規格需遵守camel case
+ * 與Javascript 的接口參照表1
+
+* 表1 Javascrpit 與 Webview 的 互動接口表
 
 | Function  | Caller  |API name   | 說明 |
 |---|---|---|---|
