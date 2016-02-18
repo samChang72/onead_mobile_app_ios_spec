@@ -7,9 +7,9 @@
  * WebView Mobile In_Read:https://goo.gl/wOqCPX
  
 * 流程圖
- * Native Mobile In_Cover:https://goo.gl/va2afy
- * Native Mobile In_Read:https://goo.gl/HgW8jZ
- * WebView Mobile In_Read:https://goo.gl/HgW8jZ
+ * Native Mobile In_Cover:https://goo.gl/ij9WPi
+ * Native Mobile In_Read:https://goo.gl/cAV6RT
+ * WebView Mobile In_Read:https://goo.gl/QWNpw4
  
 * 細則
  * 程式版本請上傳至 github，甲方有讀取的權限。 
