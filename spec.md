@@ -22,29 +22,16 @@
  * 程式變數命名規格需遵守camel case
  * 與Javascript 的接口參照表1
 
-* 表1 Javascrpit 與 Webview 的 互動接口表
-
-| Function  | Caller  |API name   | 說明 |
-|---|---|---|---|
-
-| 影片暫停/續播  | Native  | ONEAD_videoState(params:string) | 常數值:  "play" or "pause" |
-|  通知頁面已載入 |Javascript    |  ONEAD_BRIDGE_pageFinished |Javascript 會帶boolean參數， true有查到廣告，false沒有 |
-| 取得 volume 狀態  |Javascript    |  ONEAD_BRIDGE_audioManager |不帶參數 |
-| 影片點擊  |Javascript    |  ONEAD_BRIDGE_videoClick |不帶參數 |
-|  播放結束 |Javascript    |  ONEAD_BRIDGE_videoEnd |不帶參數 |
-|  關閉WebViewAd |Javascript    |  ONEAD_BRIDGE_closeAD |不帶參數 |
-| 取得BannerUrl  |Javascript    |  ONEAD_BRIDGE_clickURL |Javascript 會帶 string 類型 URL 參數 |
-
+# 
 ## 設定必要參數 (From Native)
 
 ### API name: ONEAD_config(params:json string)
 
 ```
-
 {
     uid:"'1000033'", 
     guid:"uuu-aaa-bbb0-ddd", 
-    network_status:"wifi|3G", 
+    network_status:"WIFI|3G", 
     play_mode:"mobile-app-incover|mobile-app-inread", 
     dedicated_pid:"12615", 
     is_native_view:"true|false", 
@@ -55,6 +42,55 @@
 ## 影片暫停/續播 (From Native)
 
 ### API name: ONEAD_videoState(params:string)
+
+```
+
+```
+
+## 通知頁面已載入 (From Javascript)
+
+### API name: ONEAD_BRIDGE_pageFinished
+
+```
+
+```
+
+## 取得 volume 狀態 (From Javascript)
+
+### API name: ONEAD_BRIDGE_audioManager
+
+```
+
+```
+
+
+## 影片點擊 (From Javascript)
+
+### API name: ONEAD_BRIDGE_videoClick
+
+```
+
+```
+
+## 播放結束 (From Javascript)
+
+### API name: ONEAD_BRIDGE_videoEnd
+
+```
+
+```
+
+## 關閉WebViewAd (From Javascript)
+
+### API name: ONEAD_BRIDGE_closeAD
+
+```
+
+```
+
+## 取得BannerUrl (From Javascript)
+
+### API name: ONEAD_BRIDGE_clickURL
 
 ```
 
