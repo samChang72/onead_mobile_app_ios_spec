@@ -25,7 +25,7 @@
 ## API 定義
 ### 設定必要參數 (From Native)
 
-### API name: ONEAD_config(params:json string)
+`ONEAD_config(params:json string)`
 
 ```
 {
@@ -41,7 +41,7 @@
 
 ### 影片暫停/續播 (From Native)
 
-### API name: ONEAD_videoState(params:string)
+`ONEAD_videoState(params:string)`
 
 ```
 //play | pause
@@ -49,7 +49,7 @@
 
 ### 通知頁面已載入 (From Javascript)
 
-### API name: ONEAD_BRIDGE_pageFinished,pageFinished(Boolean)
+`ONEAD_BRIDGE_pageFinished,pageFinished(Boolean)`
 
 ```
 //true | false
@@ -57,7 +57,7 @@
 
 ### 取得 volume 狀態 (From Javascript)
 
-### API name: ONEAD_BRIDGE_audioManager,audioManager()
+`ONEAD_BRIDGE_audioManager,audioManager()`
 
 ```
 //不帶參數
@@ -66,7 +66,7 @@
 
 ### 影片點擊 (From Javascript)
 
-### API name: ONEAD_BRIDGE_videoClick,videoClick()
+`ONEAD_BRIDGE_videoClick,videoClick()`
 
 ```
 //不帶參數
@@ -74,7 +74,7 @@
 
 ### 播放結束 (From Javascript)
 
-### API name: ONEAD_BRIDGE_videoEnd,videoEnd()
+`ONEAD_BRIDGE_videoEnd,videoEnd()`
 
 ```
 //不帶參數
@@ -82,7 +82,7 @@
 
 ### 關閉WebViewAd (From Javascript)
 
-### API name: ONEAD_BRIDGE_closeAD,closeAD()
+`ONEAD_BRIDGE_closeAD,closeAD()`
 
 ```
 //不帶參數
@@ -90,7 +90,7 @@
 
 ### 取得BannerUrl (From Javascript)
 
-### API name: ONEAD_BRIDGE_clickURL,clickURL(String url);
+`ONEAD_BRIDGE_clickURL,clickURL(String url)`
 
 ```
 //string 類型 URL 參數
